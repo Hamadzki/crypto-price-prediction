@@ -1,34 +1,39 @@
-# crypto-price-prediction
+# 📈 Crypto Price Analysis and Prediction
 
 ## 🌟 Overview
-This repository presents a time series analysis project for predicting cryptocurrency prices. The project explores multiple cryptocurrencies, including Bitcoin, Chainlink, Polygon, Theta Network, and XRP, using various machine learning techniques for time series forecasting. It also includes Exploratory Data Analysis (EDA), model evaluation, and comparison. This project includes a web application that allows users to predict cryptocurrency prices based on the trained models. Built using Streamlit, the app can be easily deployed and used by uploading relevant data.
+This repository contains a comprehensive project on predicting cryptocurrency prices using time series analysis and the `fbprophet` model. The project includes exploratory data analysis (EDA), model building for various cryptocurrencies, and performance evaluation. Additionally, a web app is developed to predict cryptocurrency prices based on user-uploaded data.
 
-### 📂 Project Structure
+## 📂 Project Structure
+- **📊 accuracy_graph/**: Contains graphs that depict model accuracy for each cryptocurrency.
+- **🧠 models/**: Stores the saved `fbprophet` models for each cryptocurrency.
+- **📈 Crypto_Bitcoin.ipynb**: Notebook for Bitcoin price prediction.
+- **📈 Crypto_Chainlink.ipynb**: Notebook for Chainlink price prediction.
+- **📈 Crypto_Polygon.ipynb**: Notebook for Polygon price prediction.
+- **📈 Crypto_Theta_Network.ipynb**: Notebook for Theta Network price prediction.
+- **📈 Crypto_xrp.ipynb**: Notebook for XRP price prediction.
+- **🔍 EDA.ipynb**: Conducts exploratory data analysis of the cryptocurrency dataset.
+- **🚀 app.py**: The main script for running the web app to predict cryptocurrency prices.
+- **📄 crypto_dataset.csv**: The original cryptocurrency dataset used for analysis and model building.
+- **📋 models_score.csv**: Initial model performance scores across different cryptocurrencies.
+- **📋 models_score_final.csv**: Final model performance scores after tuning.
+- **📝 requirements.txt**: Lists the Python dependencies required to run the project.
 
-📉 accuracy_graph/: Contains graphs visualizing the accuracy of different models.
+## 🌐 Web App
+The web app allows users to upload cryptocurrency data files and predict future prices using the trained models. It is built using `Streamlit` and can be run locally or deployed on cloud services.
 
-🧠 models/: Directory storing all trained models for price prediction.
+- **🚀 app.py**: The main script for deploying and running the web app.
 
-📈 Crypto_Bitcoin.ipynb: Jupyter Notebook analyzing and predicting Bitcoin prices.
+## 📁 Data
+- **📄 crypto_dataset.csv**: The historical cryptocurrency prices dataset used for model training.
+- **📊 models_score.csv**: Initial scores for model accuracy.
+- **📊 models_score_final.csv**: Final scores for model accuracy after tuning.
 
-🔗 Crypto_Chainlink.ipynb: Analysis and prediction of Chainlink prices.
+## 🤖 Models
+- **📦 models/**: Contains saved models for each cryptocurrency.
 
-⬡ Crypto_Polygon.ipynb: Time series analysis for Polygon prices.
-
-📡 Crypto_Theta_Network.ipynb: Theta Network price prediction using various models.
-
-💸 Crypto_xrp.ipynb: Price prediction and analysis for XRP.
-
-🔍 EDA.ipynb: Exploratory Data Analysis of the cryptocurrency dataset.
-
-🚀 app.py: Main script for the web application that predicts crypto prices.
-
-📊 crypto_dataset.csv: The dataset containing historical cryptocurrency prices.
-
-📑 models_score.csv: Initial model performance scores.
-
-🏆 models_score_final.csv: Final scores comparing all models after tuning.
-
-📋 requirements.txt: List of dependencies required to run the project.
-
+## 🚀 Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hamadzki/crypto-price-prediction.git
+   cd crypto-price-prediction
 
