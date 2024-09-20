@@ -1,5 +1,7 @@
 # 📈 Crypto Price Analysis and Prediction
 
+<img width="1276" alt="image" src="https://github.com/user-attachments/assets/e6f9603f-0f99-438e-bb17-cd134e0a32e0">
+
 ## 🌟 Overview
 This repository contains a comprehensive project on predicting cryptocurrency prices using time series analysis and the `fbprophet` model. The project includes exploratory data analysis (EDA), model building for various cryptocurrencies, and performance evaluation. Additionally, a web app is developed to predict cryptocurrency prices based on user-uploaded data.
 
